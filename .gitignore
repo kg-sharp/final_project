@@ -1,0 +1,4 @@
+__pycache__/
+secrets.py
+city_pollution.json
+CO2_air_pollution.sqlite
