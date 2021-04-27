@@ -1,4 +1,6 @@
 __pycache__/
 secrets.py
 city_pollution.json
+alt_country_names.json
 CO2_air_pollution.sqlite
+.DS_Store
