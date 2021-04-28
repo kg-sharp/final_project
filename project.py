@@ -170,9 +170,9 @@ def create_city_pollution_bar_chart(city1, component=None, city2=None, city3=Non
             fig = go.Figure(data=bar_data, layout=layout)
             return fig
     else:
-        components = {"1": "AQI (1-5)", "2": "CO (μg/m^3)", "3": "NO (μg/m^3)",
-                    "4": "NO2 (μg/m^3)", "5": "O3 (μg/m^3)", "6": "SO2 (μg/m^3)",
-                    "7": "PM 2.5 (μg/m^3)", "8": "PM 10 (μg/m^3)", "9": "NH3 (μg/m^3)"}
+        components = {"1": "AQI", "2": "CO", "3": "NO",
+                    "4": "NO2", "5": "O3", "6": "SO2",
+                    "7": "PM 2.5", "8": "PM 10", "9": "NH3"}
         city1_data = get_pollution_data(city1)
         if isinstance(city1_data, str):
             return city1_data
